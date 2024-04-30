@@ -4,8 +4,8 @@
 // • Loop through the new_users list to see if each new username has already been used. If it has, print a message that the 
 // person will need to enter a new username. If a username has not been used, print a message saying that the username is available.
 // • Make sure your comparison is case insensitive. If 'John' has been used, 'JOHN' should not be accepted.
-let current_users = ["Musharaf", "Saeeda", "ahmer", "Usama", "Maha"];
-let new_users = ["Faiza", "Saeeda", "Areesha", "Shereen", "ahmer"];
+let current_users = ["Musharaf", "Saeeda", "Ahmer", "Usama", "Maha"];
+let new_users = ["Faiza", "Saeeda", "Areesha", "Shereen", "Ahmer"];
 new_users.forEach(new_user1 => {
     if (current_users.some(current_users1 => current_users1.toLowerCase() === new_user1.toLowerCase())) {
         console.log(`Sorry, ${new_user1} has already been used, You will need to enter a new username.`);

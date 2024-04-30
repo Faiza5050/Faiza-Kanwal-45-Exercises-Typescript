@@ -6,6 +6,7 @@
 // console.log(car == 'subaru')
 // • Look closely at your results, and make sure you understand why each line evaluates to True or False.
 // • Create at least 10 tests. Have at least 5 tests evaluate to True and another 5 tests evaluate to False.
+Object.defineProperty(exports, "__esModule", { value: true });
 let landCruiser = 2023;
 console.log("Test 1: Is landCruiser == 2023? I predict True.");
 console.log(landCruiser == 2023);
@@ -28,7 +29,7 @@ let nums = 10 < 25;
 console.log("\nTest 7: Is num1 greater than num2? I predict True");
 console.log(10 < 25);
 let twenty = 20;
-console.log("\nTest 8: twenty !== 20? I predict False.");
+console.log("\nTest 8: Is twenty not equal to 20? I predict False.");
 console.log(twenty !== 20);
 let car_model = 2024;
 console.log("\nTest 9: Is Car_model == 2024? I predict True.");

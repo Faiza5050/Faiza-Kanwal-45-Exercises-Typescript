@@ -10,6 +10,6 @@ function cars(manufacturer, modelName, ...moreOptions) {
     return myCar;
 }
 ;
-let make_car = cars("Land Cruiser", "L579", { Colour: "Silver" }, { Sunroof: "Yes" }, { Year: "2024" });
+let make_car = cars("Land Cruiser", "Toyota Corolla", { Colour: "Silver" }, { Sunroof: "Yes" }, { Year: "2024" });
 console.log(make_car);
 export {};

@@ -4,6 +4,7 @@
 // • Make a array of your three favorite fruits and call it favorite_fruits.
 // • Write five if statements. Each should check whether a certain kind of fruit is in your array. 
 // If the fruit is in your array, the if block should print a statement, such as You really like bananas!
+Object.defineProperty(exports, "__esModule", { value: true });
 let favorite_fruits = ["Mango", "Bananas", "Grapes"];
 console.log("If favorite fruits in your array");
 if (favorite_fruits.includes("Mango")) {

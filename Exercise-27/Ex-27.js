@@ -4,6 +4,7 @@
 // • If the alien is yellow, print a message that the player earned 10 points.
 // • If the alien is red, print a message that the player earned 15 points.
 // • Write three versions of this program, making sure each message is printed for the appropriate color alien.
+Object.defineProperty(exports, "__esModule", { value: true });
 let alien_color4 = 'green';
 if (alien_color4 === 'green') {
     console.log("Hurrah! You just earned 5 Points for shooting the green alien.");

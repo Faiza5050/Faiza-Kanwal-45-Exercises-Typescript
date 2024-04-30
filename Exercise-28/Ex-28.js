@@ -7,6 +7,7 @@
 // • If the person is at least 13 years old but less than 20, print a message that the person is a teenager.
 // • If the person is at least 20 years old but less than 65, print a message that the person is an adult.
 // • If the person is age 65 or older, print a message that the person is an elder.
+Object.defineProperty(exports, "__esModule", { value: true });
 let personAge = 55;
 if (personAge < 2) {
     console.log("The Person is a Baby.");
@@ -21,7 +22,7 @@ else if (personAge >= 13 && personAge < 20) {
     console.log("The Person is a Teenager.");
 }
 else if (personAge >= 20 && personAge < 65) {
-    console.log("The Person is a Adult.");
+    console.log("The Person is an Adult.");
 }
 else {
     console.log("The person is an elder.");
